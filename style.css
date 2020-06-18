@@ -1,0 +1,46 @@
+.header{
+    display:flex;
+justify-content: center;
+}
+*{
+    background-image: url("cjm.jpg");
+}
+
+.layout{
+    display:flex;
+   background-color: #808080;
+  border: 20px solid seagreen;
+  opacity:0.9;
+  direction: rtl;
+  cursor: help;
+    unicode-bidi: bidi-override;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content{
+    display: flex;
+    background-color: silver;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dates{
+    display: flex;
+    background-color: rgb(218, 106, 218);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.link{
+    display:flex;
+    background-color: red;
+    justify-content: center;
+}
+.pic{
+    display:flex;
+    justify-content: center;
+}
+h1{
+    font-size: medium;
+   font-weight: bolder;
+    text-align: center;
+    direction: ltr;
+}
